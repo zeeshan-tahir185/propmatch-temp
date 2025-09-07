@@ -21,6 +21,7 @@ const Navbar = () => {
         logout();
         router.push('/');
     };
+  console.log("API URL =>", process.env.NEXT_PUBLIC_API_URL);
 
     return (
         <div className='!bg-white fixed top-0 w-full left-0 right-0 z-50'>
