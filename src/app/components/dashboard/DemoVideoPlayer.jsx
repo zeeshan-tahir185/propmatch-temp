@@ -63,7 +63,8 @@ const DemoVideoPlayer = ({ compact = false }) => {
       };
     }
   }, []);
-
+console.log("process.env.NEXT_PUBLIC_API_URL =>", process.env.NEXT_PUBLIC_API_URL);
+console.log("apiUrl being used =>", apiUrl);
   // Fetch signed URL for v6 video from backend
   const fetchSignedUrl = async () => {
     const useGCS = process.env.NEXT_PUBLIC_USE_GCS_VIDEOS === 'true';
