@@ -15,7 +15,7 @@ import {
 import PainSolution from './components/home/PainSolution'
 
 const page = () => {
-  console.log("API URL =>", process.env.NEXT_PUBLIC_API_URL);
+  console.log("zeeshu");
 
   return (
     <div className='min-h-screen bg-gradient-to-br from-gray-50 via-blue-50/30 to-indigo-50/50'>
